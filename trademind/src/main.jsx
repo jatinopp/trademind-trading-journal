@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import { createClient } from '@supabase/supabase-js';
 import { AreaChart, Area, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid, BarChart, Bar } from 'recharts';
-import { Activity, ArrowDownRight, ArrowUpRight, BarChart3, Bell, BookOpen, Brain, CalendarDays, Check, ChevronDown, ChevronLeft, ChevronRight, CircleHelp, Clock3, Download, FileSpreadsheet, Filter, Gauge, LayoutDashboard, LogOut, Menu, MoreHorizontal, Plus, Search, Settings, ShieldCheck, SlidersHorizontal, Sparkles, Target, TrendingUp, Upload, Wallet, X, Zap } from 'lucide-react';
+import { Activity,Link2, ArrowDownRight, ArrowUpRight, BarChart3, Bell, BookOpen, Brain, CalendarDays, Check, ChevronDown, ChevronLeft, ChevronRight, CircleHelp, Clock3, Download, FileSpreadsheet, Filter, Gauge, LayoutDashboard, LogOut, Menu, MoreHorizontal, Plus, Search, Settings, ShieldCheck, SlidersHorizontal, Sparkles, Target, TrendingUp, Upload, Wallet, X, Zap } from 'lucide-react';
 import './styles.css';
 
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
